@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+jupyterlab = "*"
+matplotlib = "*"
+plotly = "*"
+maya = "*"
+scipy = "*"
+goldencheetah-opendata = {editable = true,path = "/Users/sladkovm/Dropbox/Projects/OpenData/opendata-python"}
+stravaio = {editable = true,path = "/Users/sladkovm/Dropbox/Projects/stravaio"}
+ipywidgets = "*"
+bonobo = "*"
