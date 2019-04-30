@@ -4,6 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 pandas = "*"
@@ -16,3 +17,5 @@ ipywidgets = "*"
 bonobo = "*"
 goldencheetah-opendata = "*"
 stravaio = "*"
+plotly-express = "*"
+python-dotenv = "*"
