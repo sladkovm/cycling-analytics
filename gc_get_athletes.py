@@ -9,7 +9,7 @@ import bonobo
 
 
 START_DATE = '2015-01-01'
-N_RIDES = 100
+N_RIDES = 1000
 
 min_time = maya.parse(START_DATE).datetime(naive=False)
 
@@ -18,10 +18,8 @@ def extract():
     """Load athletes from the Golden Cheetah Open Data"""
     od = OpenData()
     remote_atl = od.remote_athletes() # list remote athletes
-    local_atl = od.local_athletes() # list athletes locally stored on
     for a in remote_atl:
-        if a not in local_atl: # only return the athletes that are not stored locally
-            yield a
+        yield a
 
 
 def transform(a):
