@@ -12,7 +12,7 @@ matplotlib = "*"
 plotly = "*"
 maya = "*"
 scipy = "*"
-goldencheetah-opendata = {editable = true,path = "/Users/sladkovm/Dropbox/Projects/OpenData/opendata-python"}
-stravaio = {editable = true,path = "/Users/sladkovm/Dropbox/Projects/stravaio"}
 ipywidgets = "*"
 bonobo = "*"
+goldencheetah-opendata = "*"
+stravaio = "*"
