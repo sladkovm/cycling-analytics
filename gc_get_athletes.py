@@ -6,6 +6,7 @@ from opendata import OpenData
 import pandas as pd
 import maya
 import bonobo
+from loguru import logger
 
 
 START_DATE = '2015-01-01'
@@ -27,7 +28,7 @@ def transform(a):
     timestr = list(a.metadata['RIDES'].keys())
     timeiso8601 = [maya.parse(t).iso8601() for t in timestr]
     if (pd.to_datetime(timeiso8601).min()<min_time) & (len(timeiso8601)>N_RIDES):
-        print('{} rides {}'.format(a.metadata['ATHLETE']['id'], len(timeiso8601)))
+        logger.debug('{} rides {}'.format(a.metadata['ATHLETE']['id'], len(timeiso8601)))
         yield a 
 
 
@@ -38,7 +39,7 @@ def load(a):
 
 def build_graph():
     graph = bonobo.Graph()
-    graph.add_chain(extract, transform)
+    graph.add_chain(extract, transform, bonobo.Limit(10), load)
     return graph
 
 
