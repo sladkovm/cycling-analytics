@@ -21,3 +21,4 @@ plotly-express = "*"
 python-dotenv = "*"
 ruptures = "*"
 loguru = "*"
+cycling-analytics = {editable = true,path = "."}
