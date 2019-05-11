@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0ef5bb94ab138f7dca558bb4e237510585acc66164e1f9bc838c5412b314908e"
+            "sha256": "7420cb5a512a8a9592d19a4aa3f74d2260dac645addc09457b27efbe0b6d77a5"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -35,6 +35,12 @@
             ],
             "markers": "sys_platform == 'darwin'",
             "version": "==0.1.0"
+        },
+        "asteval": {
+            "hashes": [
+                "sha256:8faf9f92b2b0d2ed376dc149d6bab2e01f614f6994722be9c16f982cbdd07c99"
+            ],
+            "version": "==0.9.13"
         },
         "attrs": {
             "hashes": [
@@ -73,17 +79,17 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:d8e77c1cfbc80bc183a1e407a2f8a025fccf3469cddd3fad7f08257a72398b4c",
-                "sha256:e49c24ec0cefe1a61f8b9de61d46ec4c5c33c2ec7f0a1d9dca03973445238db5"
+                "sha256:bc6635529f85cf130813fda973a2a5240f54532c7e284b04f215dcee9721bbb8",
+                "sha256:d60329ff211a496016c334dbecf7ab70500b19aee013d2435b4f30d9e0a84ca1"
             ],
-            "version": "==1.9.145"
+            "version": "==1.9.146"
         },
         "botocore": {
             "hashes": [
-                "sha256:d83c012849f5ec5266361b68d5d88c713a1a58b8c4d748e28751724bf6ee2810",
-                "sha256:d8f9431d373a7ecb1bf108fbd6136ce65e0e43e1bfb05cc1db820b8db4f095fc"
+                "sha256:1517c52eaa3056d0e81f9a81b580d7f28440e7e1523d10a8acc8160c56be7113",
+                "sha256:19d9d56fcf4f16ffea8a929bbf3c72db3458b6c1f306c04031f3166759cd62ac"
             ],
-            "version": "==1.12.145"
+            "version": "==1.12.146"
         },
         "certifi": {
             "hashes": [
@@ -153,6 +159,12 @@
             ],
             "version": "==0.3"
         },
+        "fitparse": {
+            "hashes": [
+                "sha256:db29e83f77cfb28e2c8cb52cf045c29d274907184411c279cabbabe32250e8fc"
+            ],
+            "version": "==1.1.0"
+        },
         "fs": {
             "hashes": [
                 "sha256:42022b74cfa30b1fad4e697720b1bc0eed8c49ca80ed8f5f0bb07d9db41d62bf",
@@ -167,6 +179,12 @@
             ],
             "index": "pypi",
             "version": "==0.3.1"
+        },
+        "goldencheetahlib": {
+            "hashes": [
+                "sha256:8f2dee2dba751f21cb76d0ccde2a75fd6631c5c1482ac557c4e984c9c2c216a6"
+            ],
+            "version": "==0.8.0"
         },
         "graphviz": {
             "hashes": [
@@ -307,6 +325,12 @@
                 "sha256:f790f8b3dff3d53453de6a7b7ddd173d2e020fb160baff578d578065b108a05f"
             ],
             "version": "==1.1.0"
+        },
+        "lmfit": {
+            "hashes": [
+                "sha256:aaabeb5276cebe7d7c4172c6b1ada5df95fd020e5a43070543961c60bd6f0ec1"
+            ],
+            "version": "==0.9.13"
         },
         "loguru": {
             "hashes": [
@@ -542,11 +566,11 @@
         },
         "plotly-express": {
             "hashes": [
-                "sha256:118a3667ea9928c1e85ec61d3820abace879b0b3c3ac2e51b88d4919a06a599d",
-                "sha256:50ce130133e0105d54d929c4c2f5b2632b77f3256a36e88810bc067c10fb9c5c"
+                "sha256:0d1e062ab1277b0901294f7fab2cd1ffd476f98b17d757871d7863e82376f44a",
+                "sha256:fb2bd5dfd711b641a422e4c0e458873b1636fc3da447f7ab7bee052a39d09e84"
             ],
             "index": "pypi",
-            "version": "==0.1.9"
+            "version": "==0.2.0"
         },
         "prometheus-client": {
             "hashes": [
@@ -826,6 +850,14 @@
             "index": "pypi",
             "version": "==0.0.2"
         },
+        "sweat": {
+            "hashes": [
+                "sha256:9ad4939760b81f1d349c149049d18003d3a626ef2b8f1dc4058323b00fbe5387",
+                "sha256:a99fb9da3fbb3419e71f09dce36df8b89316b2cf73846c7590d30068055087e9"
+            ],
+            "index": "pypi",
+            "version": "==0.4.0"
+        },
         "terminado": {
             "hashes": [
                 "sha256:d9d012de63acb8223ac969c17c3043337c2fcfd28f3aea1ee429b345d01ef460",
@@ -864,6 +896,12 @@
                 "sha256:4ebeb848845ac898da6519b9b31879cf13b6626f7184c496037b818e238f2c4e"
             ],
             "version": "==1.5.1"
+        },
+        "uncertainties": {
+            "hashes": [
+                "sha256:9a98e2d115ce3beacf9e6a33dd10e602b44c16d29a3a43884ec69606c204e0c2"
+            ],
+            "version": "==3.0.3"
         },
         "unidecode": {
             "hashes": [

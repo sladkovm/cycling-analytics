@@ -22,3 +22,4 @@ python-dotenv = "*"
 ruptures = "*"
 loguru = "*"
 cycling-analytics = {editable = true,path = "."}
+sweat = "*"
