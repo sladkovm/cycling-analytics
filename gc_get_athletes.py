@@ -9,8 +9,8 @@ import bonobo
 from loguru import logger
 
 
-START_DATE = '2015-01-01'
-N_RIDES = 1000
+START_DATE = '2017-01-01'
+N_RIDES = 300
 
 min_time = maya.parse(START_DATE).datetime(naive=False)
 
@@ -39,7 +39,7 @@ def load(a):
 
 def build_graph():
     graph = bonobo.Graph()
-    graph.add_chain(extract, transform, bonobo.Limit(10), load)
+    graph.add_chain(extract, transform, load)
     return graph
 
 
