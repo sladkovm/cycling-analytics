@@ -23,4 +23,4 @@ ruptures = "*"
 loguru = "*"
 cycling-analytics = {editable = true,path = "."}
 sweat = "*"
-stravaio = {editable = true,path = "C:/Users/Sladkov/Documents/private/projects/stravaio"}
+stravaio = "*"
