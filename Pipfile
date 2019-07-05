@@ -22,5 +22,6 @@ python-dotenv = "*"
 ruptures = "*"
 loguru = "*"
 cycling-analytics = {editable = true,path = "."}
-sweat = "*"
-stravaio = "*"
+pendulum = "*"
+stravaio = {editable = true,path = "./../stravaio"}
+sweat = {editable = true,path = "C:/Users/Sladkov/Documents/private/projects/sweatpy"}
