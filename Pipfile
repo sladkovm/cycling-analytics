@@ -4,24 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
-rope = "*"
+velo-plotly = {editable = true,path = "C:/Users/Sladkov/Documents/private/projects/velo-plotly"}
+stravaio = {editable = true,path = "C:/Users/Sladkov/Documents/private/projects/stravaio"}
 
 [packages]
 pandas = "*"
-jupyterlab = "*"
-matplotlib = "*"
+jupyter = "*"
 plotly = "*"
-maya = "*"
-scipy = "*"
-ipywidgets = "*"
-bonobo = "*"
-goldencheetah-opendata = "*"
 plotly-express = "*"
-python-dotenv = "*"
-ruptures = "*"
-loguru = "*"
-cycling-analytics = {editable = true,path = "."}
-pendulum = "*"
-stravaio = {editable = true,path = "./../stravaio"}
-sweat = {editable = true,path = "C:/Users/Sladkov/Documents/private/projects/sweatpy"}
+
+[requires]
+python_version = "3.7"
